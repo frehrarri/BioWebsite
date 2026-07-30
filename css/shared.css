@@ -1,0 +1,200 @@
+@media (max-width: 480px) {
+
+}
+
+@media (max-width: 768px) {
+
+}
+
+@media (max-width: 1024px) {
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Libertinus Math", system-ui;
+}
+
+h1{
+    font-size: 2rem;
+}
+
+h2 {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+
+h3 {
+    font-size: 1.4rem;
+    margin-bottom: 20px;
+}
+
+h4 {
+    font-size: 1.2rem;
+}
+
+section {
+    padding: 40px;
+}
+
+.error-input {
+    border: 2px solid #970000;
+}
+
+.error-msg {
+    color: #970000;
+}
+
+.hidden {
+    display: none;
+}
+
+.flex {
+    display: flex;
+    flex-direction: row;
+}
+
+.flex-col {
+    display: flex;
+    flex-direction: column;
+}
+
+.spc-btwn {
+    justify-content: space-between;
+}
+
+.spc-even{
+    justify-content: space-evenly;
+}
+
+.center {
+    justify-content: center;
+}
+
+.gap5 {
+    gap: 5px;
+}
+
+.gap25{
+    gap:25px;
+}
+
+.margin-b-25 {
+    margin-bottom: 25px
+}
+
+.margin-t-25 {
+    margin-top: 25px
+}
+
+.mw150 {
+    max-width:150px;
+}
+
+.center-txt {
+    text-align: center;
+}
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+}
+
+.linkedin {
+    max-height: 15px;
+}
+
+header {
+    background-color: #BFC9A9;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    border-top: 1px solid #F7EFE2;
+}
+
+    #logo-container {
+        margin-left: 100px;
+    }
+
+    #logo {
+        max-height: 30px;
+    }
+
+    header > ul {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 50px;
+        list-style: none;
+    }
+
+    a {
+        text-decoration: none;
+        color:#82622A;
+    }
+
+    a:hover {
+        text-decoration: underline;
+    }
+
+        .material-symbols-outlined:hover {
+        cursor: pointer;
+    }
+
+    #header-right > * > .material-symbols-outlined {
+        color: #82622A;
+    }
+
+    #header-right {
+        margin-right: 100px;
+        display: flex;
+        align-items: center;
+        gap: 20px;
+    }
+
+        #header-right > * {
+            display: flex;
+            align-items: center;
+            gap: 5px;
+        }
+
+        #github {
+            height: 20px;
+            color: #82622A;
+        }
+
+main {
+    background-color: #F7EFE2;
+    display: flex;
+    justify-content: center;
+}
+
+#background {
+    background-color: #37280D;
+}
+
+hr {
+    margin: 0 auto;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    max-width: 500px;
+    color: #a49986;
+}
+
+.stage-filled {
+    background-color: #0b9541;
+}
+
+.loading-bar img {
+    max-height: 15px;
+}
+
+footer {
+    background-color: #BFC9A9;
+    height: 60px;
+    border-top: 1px solid #F7EFE2;
+}
