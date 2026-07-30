@@ -19,6 +19,10 @@
     gap: 25px;
 }
 
+section {
+    padding: 40px;
+}
+
 #hero {
     display: flex;
     gap: 50px;
@@ -60,7 +64,7 @@
 
 #stage1 {
     border: 1px solid #37280D;
-    padding: 4px;
+    padding: 2px;
     width: 33%;
     border-right: none;
     border-top-left-radius: 3px;

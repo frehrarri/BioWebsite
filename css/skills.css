@@ -16,8 +16,13 @@
 }
 
 #skills-wrapper {
-    background-color: #bfc9a9;
+    padding: 20px;
+}
+
+#skills-explanation {
+    background-color: #F8FFEA;
     padding: 40px;
+    padding-top: 20px;
 }
 
 #stage1 {
@@ -44,6 +49,7 @@
 
 .loading-bar {
     font-size: 1.2rem;
+    padding: 20px;
     padding-top: 30px;
     padding-bottom: 30px;
     background-color: #BFC9A9;

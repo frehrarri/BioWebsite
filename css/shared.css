@@ -35,10 +35,6 @@ h4 {
     font-size: 1.2rem;
 }
 
-section {
-    padding: 40px;
-}
-
 .error-input {
     border: 2px solid #970000;
 }
@@ -113,7 +109,6 @@ header {
     justify-content: space-between;
     align-items: center;
     height: 60px;
-    border-top: 1px solid #F7EFE2;
 }
 
     header a {
@@ -129,7 +124,7 @@ header {
         max-height: 30px;
     }
 
-    header > ul {
+    nav > ul {
         display: flex;
         flex-direction: row;
         align-items: center;
@@ -196,5 +191,4 @@ main {
 footer {
     background-color: #BFC9A9;
     height: 60px;
-    border-top: 1px solid #F7EFE2;
 }
