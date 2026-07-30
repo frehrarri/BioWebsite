@@ -62,27 +62,6 @@ section {
     grid-area: skills;
 }
 
-#stage1 {
-    border: 1px solid #37280D;
-    padding: 2px;
-    width: 33%;
-    border-right: none;
-    border-top-left-radius: 3px;
-    border-bottom-left-radius: 3px;
-}
-#stage2 {
-    border: 1px solid #37280D;
-    border-left: none;
-    border-right: none;
-    width: 33%;
-}
-#stage3 {
-    border: 1px solid #37280D;
-    border-left: none;
-    border-top-right-radius: 3px;
-    border-bottom-right-radius: 3px;
-    width: 33%;
-}
 
 .loading-bar {
     margin-bottom: 15px;
@@ -155,9 +134,9 @@ hr {
     color: #a49986;
 }
 
-    section ul {
-        margin-left: 30px;
-    }
+section ul {
+    margin-left: 30px;
+}
 
 .work-history-entry {
     margin-bottom: 20px;

@@ -1,3 +1,11 @@
+h2, h3 {
+    margin-top: 20px;
+}
+
+.flex {
+    align-items: center;
+}
+
 #background {
     display: flex;
     justify-content: center;
@@ -17,6 +25,7 @@
 
 #skills-wrapper {
     padding: 20px;
+    padding-top: 0px;
 }
 
 #skills-explanation {
@@ -25,26 +34,8 @@
     padding-top: 20px;
 }
 
-#stage1 {
-    border: 1px solid #37280D;
+.stage1, .stage2, .stage3, .stage4 {
     padding: 4px;
-    width: 33%;
-    border-right: none;
-    border-top-left-radius: 3px;
-    border-bottom-left-radius: 3px;
-}
-#stage2 {
-    border: 1px solid #37280D;
-    border-left: none;
-    border-right: none;
-    width: 33%;
-}
-#stage3 {
-    border: 1px solid #37280D;
-    border-left: none;
-    border-top-right-radius: 3px;
-    border-bottom-right-radius: 3px;
-    width: 33%;
 }
 
 .loading-bar {
@@ -56,9 +47,6 @@
     border-bottom: 1px solid #37280D;
 }
 
-    .loading-bar:last-child {
-        border-bottom: none;
-    }
 
     .loading-bar .flex {
         margin-bottom: 2px;
@@ -70,4 +58,16 @@
 
     .loading-bar p {
         margin-top: 5px;
+        font-size: 1rem;
+    }
+
+    section .loading-bar:first-of-type {
+        border-top-left-radius: 2px;
+        border-top-right-radius: 2px;
+    }
+
+    section .loading-bar:last-child {
+        border-bottom: none;
+        border-bottom-left-radius: 2px;
+        border-bottom-right-radius: 2px;
     }

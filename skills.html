@@ -27,7 +27,7 @@
                         <a href="/about.html">About</a>
                     </li>
                     <li>
-                        <a href="/skills.html">Skills</a>
+                        <a href="/skills.html" class="selected">Skills</a>
                     </li>
                 </ul>
             </nav>
@@ -51,203 +51,382 @@
         <main>
             <div id="background">
                 <div id="main-container">
-                    <section id="skills">
-                        
+                    <div id="skills">
                         <div id="skills-explanation">
                             <div class="flex gap5">
                                 <span class="material-symbols-outlined">computer</span>
-                                <h3>Technical Skills</h3>
+                                <h2>Technical Skills</h2>
                             </div>
                             <div>
-                                <p>The way I quantify this is based on how well rounded I feel I am with the technology. 
-                                    While I always will have to look up syntax, even for those technologies I am proficient with,
-                                there are some technologies that I have used much more frequently and have a fuller grasp. 
-                                While there are plenty of technologies I have no experience with, minimal, or don't have a full grasp of, I have enough
-                                experience to pick up most technologies up easily. For high level languages I haven't used or have barely used, I can easily
-                                pick them up as I have a solid understanding OOP and web development principles. 
-                                For different SQL databases and languages I haven't used the main difference is syntax.
-                                I'm always up for learning new technologies and taking on new challenges.
+                                <p>I have broken my experience with technologies into five distinct classifications: <b>Beginner</b>, <b>Novice</b>, <b>Competent</b>, <b>Proficient</b>, and <b>Mastered</b>.
+                                    The way I quantify my skills should not be taken by its classification without reading the reasoning in the specific technologies' section.
+                                    While are plenty of skills that will be listed as novice, these should be taken with a grain of salt as I can still do meaningful work with them.
+                                    It should also be noted that I feel I can pick up any technology given a short rampup period.
+                                </p>
+                                <br>
+                                <ul>
+                                    <li><b>Beginner</b> means I have barely any experience with the skill - these have been omitted from this page.</li>
+                                    <li><b>Novice</b> means that I have used the technology and have understanding of its principles, but theres plenty room for improvement.</li>
+                                    <li><b>Competent</b> means that I have learned enough to be able to do things somewhat easily, but there is still room for improvement.</li>
+                                    <li><b>Proficient</b> means that I have a great understanding of the technology, but I wouldn't say I have mastered it.</li>
+                                    <li><b>Mastery</b> is a category I don't consider achieveable as there is always something to learn and improve on, so it is omitted.</li>
+                                </ul>
                             </div>
                         </div>
                         <div id="skills-wrapper">
-                            <div id="html-bar" class="loading-bar">
-                                <div class="flex spc-btwn">
-                                    <div>
-                                        <img src="img/html_icon.svg">
-                                        <label for="html-bar">HTML</label>
-                                    </div>
-                                    PROFICIENT
-                                </div>
-                                <div class="flex">
-                                    <div class="stage-filled" id="stage1"></div>
-                                    <div class="stage-filled" id="stage2"></div>
-                                    <div class="stage-filled" id="stage3"></div>
-                                </div>
-                                <p>explanation</p>
-                            </div>
 
-                            <div id="css-bar" class="loading-bar ">
-                                <div class="flex spc-btwn">
-                                    <div>
-                                        <img src="img/css_icon.svg">
-                                        <label for="css-bar">CSS</label>
+                            <section id="frontend">
+                                <div class="flex gap5">
+                                    <span class="material-symbols-outlined">code_xml</span>
+                                    <h3>Frontend</h3>
+                                </div>
+                                <div id="html-bar" class="loading-bar">
+                                    <div class="flex spc-btwn">
+                                        <div>
+                                            <img src="img/html_icon.svg">
+                                            <label for="html-bar">HTML</label>
+                                        </div>
+                                        PROFICIENT
                                     </div>
-                                    COMPETENT
+                                    <div class="flex">
+                                        <div class="stage-filled stage1"></div>
+                                        <div class="stage-filled stage2"></div>
+                                        <div class="stage-filled stage3"></div>
+                                        <div class="stage4"></div>
+                                    </div>
+                                    <p>I have used HTML extensively to make web pages and have a thorough understanding of structure. 
+                                        I have a good understanding of how elements work for accessibility and SEO, but I could improve.
+                                    </p>
                                 </div>
-                                <div class="flex">
-                                    <div class="stage-filled" id="stage1"></div>
-                                    <div class="stage-filled" id="stage2"></div>
-                                    <div id="stage3"></div>
+
+                                <div id="css-bar" class="loading-bar ">
+                                    <div class="flex spc-btwn">
+                                        <div>
+                                            <img src="img/css_icon.svg">
+                                            <label for="css-bar">CSS</label>
+                                        </div>
+                                        COMPETENT
+                                    </div>
+                                    <div class="flex">
+                                        <div class="stage1 stage-filled"></div>
+                                        <div class="stage2 stage-filled"></div>
+                                        <div class="stage3"></div>
+                                        <div class="stage4"></div>
+                                    </div>
+                                    <p>I have used CSS extensively to make web pages and have a great understanding of styling and positioning. 
+                                        Advanced CSS styling such as custom animations and responsiveness could be improved.
+                                    </p>
                                 </div>
-                                <p>explanation</p>
-                            </div>
+                                
+                                <div id="js-bar" class="loading-bar">
+                                    <div class="flex spc-btwn">
+                                        <div>
+                                            <img src="img/js_icon.svg">
+                                            <label for="js-bar">JavaScript</label>
+                                        </div>
+                                        PROFICIENT
+                                    </div>
+                                    <div class="flex">
+                                        <div class="stage1 stage-filled"></div>
+                                        <div class="stage2 stage-filled"></div>
+                                        <div class="stage3 stage-filled"></div>
+                                        <div class="stage4"></div>
+                                    </div>
+                                    <p>I have used JS extensively to implement functionality in client side applications. 
+                                    </p>
+                                </div>
+
+                                <div id="react-bar" class="loading-bar">
+                                    <div class="flex spc-btwn">
+                                        <div>
+                                            <img src="img/react_icon.svg">
+                                            <label for="react-bar">React</label>
+                                        </div>
+                                        NOVICE
+                                    </div>
+                                    <div class="flex">
+                                        <div class="stage1 stage-filled"></div>
+                                        <div class="stage2"></div>
+                                        <div class="stage3"></div>
+                                        <div class="stage4"></div>
+                                    </div>
+                                    <p>I have used React to build client side pages, but my experience is limited. 
+                                        It is intuitive for me and I can contribute meaningfully despite my limited experience.
+                                    </p>
+                                </div>
+
+                                <div id="jquery-bar" class="loading-bar">
+                                    <div class="flex spc-btwn">
+                                        <div>
+                                            <img src="img/jquery_icon.svg">
+                                            <label for="jquery-bar">JQuery</label>
+                                        </div>
+                                        PROFICIENT
+                                    </div>
+                                    <div class="flex">
+                                        <div class="stage1 stage-filled"></div>
+                                        <div class="stage2 stage-filled"></div>
+                                        <div class="stage3 stage-filled"></div>
+                                        <div class="stage4"></div>
+                                    </div>
+                                    <p>I have used JQuery extensively in an enterprise software engineering role and feel comfortable to take on any challenge.
+                                    </p>
+                                </div>
+                            </section>
+
+                            <section id="backend">
+                                <div class="flex gap5">
+                                    <span class="material-symbols-outlined">host</span>
+                                    <h3>Backend</h3>
+                                </div>
+                                <div id="csharp-bar" class="loading-bar">
+                                    <div class="flex spc-btwn">
+                                        <div>
+                                            <img src="img/csharp_icon.svg">
+                                            <label for="csharp-bar">C#</label>
+                                        </div>
+                                        PROFICIENT
+                                    </div>
+                                    <div class="flex">
+                                        <div class="stage1 stage-filled"></div>
+                                        <div class="stage2 stage-filled"></div>
+                                        <div class="stage3 stage-filled"></div>
+                                        <div class="stage4"></div>
+                                    </div>
+                                    <p>
+                                        C# is my bread and butter. It is the language I am the most comfortable and dangerous with.
+                                        I have used it in all my enterprise software roles and in my favorite personal projects.
+                                    </p>
+                                </div>
+                                
+                                <div id="dotnet-bar" class="loading-bar">
+                                    <div class="flex spc-btwn">
+                                        <div>
+                                            <img src="img/dotnet_icon.svg">
+                                            <label for="dotnet-bar">.NET MVC & WebAPI</label>
+                                        </div>
+                                        PROFICIENT
+                                    </div>
+                                    <div class="flex">
+                                        <div class="stage1 stage-filled"></div>
+                                        <div class="stage2 stage-filled"></div>
+                                        <div class="stage3 stage-filled"></div>
+                                        <div class="stage4"></div>
+                                    </div>
+                                    <p>I have tons of experience in .NET MVC and WebAPI and feel very comfortable with these frameworks. 
+                                        MinimalAPI isn't listed, but I can easily use MinimalAPI as well.
+                                    </p>
+                                </div>
+
+                                <div id="ef-bar" class="loading-bar">
+                                    <div class="flex spc-btwn">
+                                        <div>
+                                            <img src="img/ef_icon.svg">
+                                            <label for="ef-bar">Entity Framework</label>
+                                        </div>
+                                        COMPETENT
+                                    </div>
+                                    <div class="flex">
+                                        <div class="stage1 stage-filled"></div>
+                                        <div class="stage2 stage-filled"></div>
+                                        <div class="stage3"></div>
+                                        <div class="stage4"></div>
+                                    </div>
+                                    <p>I have used Entity Framework often in my personal projects and jobs. I'm a big fan of using this ORM instead of 
+                                        manually writing SQL all the time (though I still do write SQL).
+                                    </p>
+                                </div>
+                                <div id="nunit-bar" class="loading-bar">
+                                    <div class="flex spc-btwn">
+                                        <div>
+                                            <img src="img/nunit_icon.svg">
+                                            <label for="nunit-bar">NUnit</label>
+                                        </div>
+                                        COMPETENT
+                                    </div>
+                                    <div class="flex">
+                                        <div class="stage1 stage-filled"></div>
+                                        <div class="stage2 stage-filled"></div>
+                                        <div class="stage3"></div>
+                                        <div class="stage4"></div>
+                                    </div>
+                                    <p>I have listed this as Competent though I'm probably somewhere between Competent and Novice. 
+                                        I can write unit tests easily, however I haven't had to write that many in my roles. Typically my companies
+                                        never opted for full coverage and instead only wanted tests for critical business logic.</p>
+                                </div>
+
+                                <div id="java-bar" class="loading-bar">
+                                    <div class="flex spc-btwn">
+                                        <div>
+                                            <img src="img/java_icon.svg">
+                                            <label for="java-bar">Java</label>
+                                        </div>
+                                        NOVICE
+                                    </div>
+                                    <div class="flex">
+                                        <div class="stage1 stage-filled"></div>
+                                        <div class="stage2"></div>
+                                        <div class="stage3"></div>
+                                        <div class="stage4"></div>
+                                    </div>
+                                    <p>
+                                        This was the first language I picked up 7 years ago and it is how I learned object oriented programming. It's been a long time 
+                                        since I've used it, and I never used it in a strong capacity, so I listed my skills as Novice. It's so similar to C# I'm sure I 
+                                        can meaningfully contribute with it.
+                                    </p>
+                                </div>
+
+                                <div id="webforms-bar" class="loading-bar">
+                                    <div class="flex spc-btwn">
+                                        <div>
+                                            <!-- <img src="img/webforms_icon.svg"> -->
+                                            <label for="webforms-bar">Web Forms</label>
+                                        </div>
+                                        NOVICE
+                                    </div>
+                                    <div class="flex">
+                                        <div class="stage1 stage-filled"></div>
+                                        <div class="stage2"></div>
+                                        <div class="stage3"></div>
+                                        <div class="stage4"></div>
+                                    </div>
+                                    <p>
+                                        I have used Webforms in an enterprise environment but my experience is quite limited. 
+                                        I haven't needed to do much webforms development as most work was migration from this framework to MVC.
+                                    </p>
+                                </div>
+                            </section>
+
+                            <section id="databases">
+                                <div class="flex gap5">
+                                    <span class="material-symbols-outlined">database</span>
+                                    <h3>Databases</h3>
+                                </div>
+
+                                <div id="mssql-bar" class="loading-bar">
+                                    <div class="flex spc-btwn">
+                                        <div>
+                                            <img src="img/mssql_icon.svg">
+                                            <label for="mssql-bar">SQL Server</label>
+                                        </div>
+                                        COMPETENT
+                                    </div>
+                                    <div class="flex">
+                                        <div class="stage1 stage-filled"></div>
+                                        <div class="stage2 stage-filled"></div>
+                                        <div class="stage3"></div>
+                                        <div class="stage4"></div>
+                                    </div>
+                                    <p>I have a thorough understanding of SQL Server and have used it often for storing data in normalized tables.</p>
+                                </div>
+
+                                <div id="postgres-bar" class="loading-bar">
+                                    <div class="flex spc-btwn">
+                                        <div>
+                                            <img src="img/postgres_icon.svg">
+                                            <label for="postgres-bar">PostgresSQL</label>
+                                        </div>
+                                        COMPETENT
+                                    </div>
+                                    <div class="flex">
+                                        <div class="stage1 stage-filled"></div>
+                                        <div class="stage2 stage-filled"></div>
+                                        <div class="stage3"></div>
+                                        <div class="stage4"></div>
+                                    </div>
+                                    <p>I have a thorough understanding of PostgresSQL and have used it often for storing data in normalized tables.</p>
+                                </div>
+
+                                <div id="mysql-bar" class="loading-bar">
+                                    <div class="flex spc-btwn">
+                                        <div>
+                                            <img src="img/mysql_icon.svg">
+                                            <label for="mysql-bar">MySQL</label>
+                                        </div>
+                                        COMPETENT
+                                    </div>
+                                    <div class="flex">
+                                        <div class="stage1 stage-filled"></div>
+                                        <div class="stage2 stage-filled"></div>
+                                        <div class="stage3"></div>
+                                        <div class="stage4"></div>
+                                    </div>
+                                    <p>I am pretty inexperienced with MySQL, but I have used it in school projects.
+                                        I labeled it Competent since SQL translates mostly one-to-one between providers.</p>
+                                </div>
+                            </section>
                             
-                            <div id="js-bar" class="loading-bar">
-                                <div class="flex spc-btwn">
-                                    <div>
-                                        <img src="img/js_icon.svg">
-                                        <label for="js-bar">JavaScript</label>
+                            <section id="datascience">
+                                <div class="flex gap5">
+                                    <span class="material-symbols-outlined">analytics</span>
+                                    <h3>Data Science</h3>
+                                </div>
+                                <div id="python-bar" class="loading-bar">
+                                    <div class="flex spc-btwn">
+                                        <div>
+                                            <img src="img/python_icon.svg">
+                                            <label for="python-bar">Python</label>
+                                        </div>
+                                        NOVICE
                                     </div>
-                                    PROFICIENT
-                                </div>
-                                <div class="flex">
-                                    <div class="stage-filled" id="stage1"></div>
-                                    <div class="stage-filled" id="stage2"></div>
-                                    <div class="stage-filled" id="stage3"></div>
-                                </div>
-                                <p>explanation</p>
-                            </div>
-                            
-                            <div id="csharp-bar" class="loading-bar">
-                                <div class="flex spc-btwn">
-                                    <div>
-                                        <img src="img/csharp_icon.svg">
-                                        <label for="csharp-bar">C#</label>
+                                    <div class="flex">
+                                        <div class="stage1 stage-filled"></div>
+                                        <div class="stage2"></div>
+                                        <div class="stage3"></div>
+                                        <div class="stage4"></div>
                                     </div>
-                                    PROFICIENT
+                                    <p>I have used Python for ETL operations, analyzing data and in a limited capacity, frontend
+                                        development. I have mostly used it for school projects and while I'm decent enough at it,
+                                        I definitely could improve.
+                                    </p>
                                 </div>
-                                <div class="flex">
-                                    <div class="stage-filled" id="stage1"></div>
-                                    <div class="stage-filled" id="stage2"></div>
-                                    <div class="stage-filled" id="stage3"></div>
-                                </div>
-                                <p>explanation</p>
-                            </div>
-                            
-                            <div id="dotnet-bar" class="loading-bar">
-                                <div class="flex spc-btwn">
-                                    <div>
-                                        <img src="img/dotnet_icon.svg">
-                                        <label for="dotnet-bar">.NET MVC & WebAPI</label>
-                                    </div>
-                                    PROFICIENT
-                                </div>
-                                <div class="flex">
-                                    <div class="stage-filled" id="stage1"></div>
-                                    <div class="stage-filled" id="stage2"></div>
-                                    <div class="stage-filled" id="stage3"></div>
-                                </div>
-                                <p>explanation</p>
-                            </div>
+                            </section>
 
-                            <div id="ef-bar" class="loading-bar">
-                                <div class="flex spc-btwn">
-                                    <div>
-                                        <img src="img/ef_icon.svg">
-                                        <label for="ef-bar">Entity Framework</label>
+                            <section id="other">
+                                <div class="flex gap5">
+                                    <span class="material-symbols-outlined">cloud</span>
+                                    <h3>Other Technologies</h3>
+                                </div>
+                                 <div id="rabbitmq-bar" class="loading-bar">
+                                    <div class="flex spc-btwn">
+                                        <div>
+                                            <img src="img/rabbitmq_icon.svg">
+                                            <label for="rabbitmq-bar">RabbitMQ</label>
+                                        </div>
+                                        NOVICE
                                     </div>
-                                    COMPETENT
+                                    <div class="flex">
+                                        <div class="stage1 stage-filled"></div>
+                                        <div class="stage2"></div>
+                                        <div class="stage3"></div>
+                                        <div class="stage4"></div>
+                                    </div>
+                                    <p>I have some experience with RabbitMQ as middleware for publishing and subscribing to topics. I have
+                                        only used it in a limited capacity.
+                                    </p>
                                 </div>
-                                <div class="flex">
-                                    <div class="stage-filled" id="stage1"></div>
-                                    <div class="stage-filled" id="stage2"></div>
-                                    <div id="stage3"></div>
+                                <div id="powerbi-bar" class="loading-bar">
+                                    <div class="flex spc-btwn">
+                                        <div>
+                                            <img src="img/powerbi_icon.svg">
+                                            <label for="powerbi-bar">PowerBI</label>
+                                        </div>
+                                        NOVICE
+                                    </div>
+                                    <div class="flex">
+                                        <div class="stage1 stage-filled"></div>
+                                        <div class="stage2"></div>
+                                        <div class="stage3"></div>
+                                        <div class="stage4"></div>
+                                    </div>
+                                    <p>I have some experience creating dashboards with PowerBI in the past, though my experience is limited.
+                                    </p>
                                 </div>
-                                <p>explanation</p>
-                            </div>
+                            </section>
 
-                            <div id="mssql-bar" class="loading-bar">
-                                <div class="flex spc-btwn">
-                                    <div>
-                                        <img src="img/mssql_icon.svg">
-                                        <label for="mssql-bar">SQL Server</label>
-                                    </div>
-                                    COMPETENT
-                                </div>
-                                <div class="flex">
-                                    <div class="stage-filled" id="stage1"></div>
-                                    <div class="stage-filled" id="stage2"></div>
-                                    <div id="stage3"></div>
-                                </div>
-                                <p>explanation</p>
-                            </div>
-
-                            <div id="postgres-bar" class="loading-bar">
-                                <div class="flex spc-btwn">
-                                    <div>
-                                        <img src="img/postgres_icon.svg">
-                                        <label for="postgres-bar">PostgresSQL</label>
-                                    </div>
-                                    COMPETENT
-                                </div>
-                                <div class="flex">
-                                    <div class="stage-filled" id="stage1"></div>
-                                    <div class="stage-filled" id="stage2"></div>
-                                    <div id="stage3"></div>
-                                </div>
-                                <p>explanation</p>
-                            </div>
-
-                            <div id="nunit-bar" class="loading-bar">
-                                <div class="flex spc-btwn">
-                                    <div>
-                                        <img src="img/nunit_icon.svg">
-                                        <label for="nunit-bar">NUnit</label>
-                                    </div>
-                                    COMPETENT
-                                </div>
-                                <div class="flex">
-                                    <div class="stage-filled" id="stage1"></div>
-                                    <div class="stage-filled" id="stage2"></div>
-                                    <div id="stage3"></div>
-                                </div>
-                                <p>explanation</p>
-                            </div>
-
-                            <div id="java-bar" class="loading-bar">
-                                <div class="flex spc-btwn">
-                                    <div>
-                                        <img src="img/java_icon.svg">
-                                        <label for="java-bar">Java</label>
-                                    </div>
-                                    NOVICE
-                                </div>
-                                <div class="flex">
-                                    <div class="stage-filled" id="stage1"></div>
-                                    <div id="stage2"></div>
-                                    <div id="stage3"></div>
-                                </div>
-                                <p>explanation</p>
-                            </div>
-
-                            <div id="python-bar" class="loading-bar">
-                                <div class="flex spc-btwn">
-                                    <div>
-                                        <img src="img/python_icon.svg">
-                                        <label for="python-bar">Python</label>
-                                    </div>
-                                    NOVICE
-                                </div>
-                                <div class="flex">
-                                    <div class="stage-filled" id="stage1"></div>
-                                    <div id="stage2"></div>
-                                    <div id="stage3"></div>
-                                </div>
-                                <p>explanation</p>
                             </div>
                         </div>
-                        </div>
-                    </section>
+                    </div>
                 </div>
             </div>
         </main>
