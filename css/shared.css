@@ -147,7 +147,7 @@ header {
 
     a {
         text-decoration: none;
-        color:#82622A;
+        color:#705321;
     }
 
     a:hover {
@@ -155,7 +155,7 @@ header {
     }
 
     #header-right > * > .material-symbols-outlined {
-        color: #82622A;
+        color: #705321;
     }
 
     #header-right > * > .material-symbols-outlined:hover {
@@ -178,7 +178,7 @@ header {
 
         #github {
             height: 20px;
-            color: #82622A;
+            color: #705321;
         }
 
 main {
