@@ -116,8 +116,13 @@ header {
     border-top: 1px solid #F7EFE2;
 }
 
+    header a {
+        font-size: 1.1rem;
+    }
+
     #logo-container {
         margin-left: 100px;
+        width: 300px;
     }
 
     #logo {
@@ -154,6 +159,7 @@ header {
         display: flex;
         align-items: center;
         gap: 20px;
+        width: 300px;
     }
 
         #header-right > * {
@@ -177,13 +183,7 @@ main {
     background-color: #37280D;
 }
 
-hr {
-    margin: 0 auto;
-    margin-bottom: 20px;
-    margin-top: 20px;
-    max-width: 500px;
-    color: #a49986;
-}
+
 
 .stage-filled {
     background-color: #0b9541;
