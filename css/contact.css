@@ -57,3 +57,7 @@ h1 {
     font-size: 2rem;
     color: #047b11;
 }
+
+#hero .flex-col p {
+    font-size: 1.3rem;
+}

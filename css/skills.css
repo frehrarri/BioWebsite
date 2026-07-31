@@ -1,3 +1,11 @@
+h1 {
+    margin-bottom: 20px;
+}
+
+#skills-explanation .flex .material-symbols-outlined {
+    margin-bottom: 20px;
+}
+
 h2, h3 {
     margin-top: 20px;
 }
@@ -37,7 +45,6 @@ ul {
 #skills-explanation {
     background-color: #F8FFEA;
     padding: 40px;
-    padding-top: 20px;
 }
 
 .stage1, .stage2, .stage3, .stage4 {
