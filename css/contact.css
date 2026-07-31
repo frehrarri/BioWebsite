@@ -8,26 +8,35 @@ body {
 }
 
 main {
-    padding-left: 80px;
-    background-color: #37280D;
     display: flex;
     justify-content: center;
     flex: 1; 
+    background-color: #F7EFE2;
 }
 
 #background {
     display: flex;
     justify-content: center;
-    width: 100%;
+    width: 1440px;
     align-items: stretch;
+    padding-left: 80px;
+    background-color: #37280D;
 }
 
 #img-container {
     margin-left: 80px;
     margin-right: 80px;
     background-color: #F7EFE2;
-    gap: 25px;
     width:50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#image {
+    border-radius: 2px;
+    padding: 40px;
+    background-color: #BFC9A9;
 }
 
 #contact  {
