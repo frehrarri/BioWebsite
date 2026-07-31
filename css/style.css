@@ -65,6 +65,7 @@ section {
 
 .loading-bar {
     margin-bottom: 25px;
+    letter-spacing: 1px;
 }
 
     .loading-bar .flex {
