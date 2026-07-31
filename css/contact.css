@@ -11,10 +11,6 @@ main {
     padding-right: 80px;
 }
 
-#content-container {
-    width: 100%;
-}
-
 #image {
     border-radius: 2px;
     background-color: #BFC9A9;
@@ -48,8 +44,6 @@ main {
     padding: 40px;
     display: flex;
 }
-
-
 
 h1 {
     margin-bottom: 25px;
