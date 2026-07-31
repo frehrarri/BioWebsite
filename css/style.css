@@ -32,6 +32,12 @@ section {
     max-width: 1024px;
 }
 
+#hero img {
+    max-height: 300px;
+    margin-left: 60px;
+    border-radius: 2px;
+}
+
 #hero-content {
     max-width: 55%;
 }
