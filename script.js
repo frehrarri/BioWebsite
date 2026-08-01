@@ -1,14 +1,42 @@
+const body = document.querySelector("body");
+body.addEventListener("click", handleClicks);
+
 emailjs.init("8GnXdQKXCjFBLbOGd"); //public api key
 
+function handleClicks(e){
+
+    //prevent navigating to pages we are already on
+    const nav = e.target.closest("nav");
+    const navlinks = nav.querySelector('ul');
+    const selectedPage = e.target;
+    debugger;
+    if (navlinks && navlinks.classList.contains("home") && selectedPage.classList.contains('home'))
+        e.preventDefault();
+    else if (navlinks && navlinks.classList.contains("about") && selectedPage.classList.contains('about'))
+        e.preventDefault();
+    else if (navlinks && navlinks.classList.contains("contact") && selectedPage.classList.contains('contact'))
+        e.preventDefault();
+    else if (navlinks && navlinks.classList.contains("skills") && selectedPage.classList.contains('skills'))
+        e.preventDefault();
+
+    //toggle mobile app dropdown menu
+    const hamburger = e.target.closest("#hamburger");
+    if (hamburger)
+        toggleDropdown();
+        
+    //submit email form
+    const submitBtn = e.target.closest('#submit-btn');
+    if (submitBtn)
+        sendEmail(e, submitBtn);
+    
+}
+
 const form = document.getElementById('contact-form')
-form.addEventListener('submit', sendEmail); 
 form.addEventListener('input', clearError);
 
-const submitBtn = document.getElementById('submit-btn');
+const emailedCount = 0;
 
-var emailedCount = 0;
-
-async function sendEmail(e){
+async function sendEmail(e, submitBtn){
     e.preventDefault();
 
     if (emailedCount > 2){
@@ -80,8 +108,7 @@ function clearError(e){
     }
 }
 
-const hamburger = document.querySelector('#mobile-nav .material-symbols-outlined');
-hamburger.addEventListener("click", toggleDropdown);
+
 
 function toggleDropdown(){
     const dropdown = document.getElementById('mobile-dropdown');

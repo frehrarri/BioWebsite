@@ -20,18 +20,18 @@
                 </a>
             </div>
 
-             <ul>
+             <ul class="about navlinks">
                 <li>
-                    <a href="/index.html" class="selected">Home</a>
+                    <a href="/index.html" class="home">Home</a>
                 </li>
                 <li>
-                    <a href="/about.html">About</a>
+                    <a href="/about.html" class="about selected">About</a>
                 </li>
                 <li>
-                    <a href="/skills.html">Skills</a>
+                    <a href="/skills.html" class="skills">Skills</a>
                 </li>
                 <li>
-                    <a href="/contact.html">Contact</a>
+                    <a href="/contact.html" class="contact">Contact</a>
                 </li>
             </ul>
         
@@ -59,23 +59,23 @@
                     <img id="logo" src="img/logo.svg" alt="logo">
                 </a>
             </div>
-            <button type="button">
+            <button id="hamburger" type="button">
                 <span class="material-symbols-outlined">menu</span>
             </button>
         </nav>
-        <nav id="mobile-dropdown" class="flex-col">
-            <ul>
+        <nav id="mobile-dropdown" class="flex-col hidden">
+            <ul class="about navlinks">
                 <li>
-                    <a href="/index.html">Home</a>
+                    <a href="/index.html" class="home">Home</a>
                 </li>
                 <li>
-                    <a href="/about.html" class="selected">About</a>
+                    <a href="/about.html" class="about selected">About</a>
                 </li>
                 <li>
-                    <a href="/skills.html">Skills</a>
+                    <a href="/skills.html" class="skills">Skills</a>
                 </li>
                 <li>
-                    <a href="/contact.html">Contact</a>
+                    <a href="/contact.html" class="contact">Contact</a>
                 </li>
             </ul>
         </nav>
@@ -152,5 +152,6 @@
                 &copy; 2026 Mitchell Frehr. All rights reserved.
             </div>
         </footer>
+        <script src="script.js"></script>
     </body>
 </html>

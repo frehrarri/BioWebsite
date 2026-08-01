@@ -41,7 +41,7 @@ h4 {
 }
 
 .hidden {
-    display: none;
+    display: none !important;
 }
 
 .flex {
@@ -194,8 +194,21 @@ img {
 
 #mobile-dropdown {
     background-color: #BFC9A9;
-    display: none;
-    height: 60px;
+    padding: 20px;
+}
+
+    #mobile-dropdown ul {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+        list-style: none;
+        margin: 0;
+    }
+
+#hamburger {
+    border: none;
+    background-color: transparent;
 }
 
 main {
