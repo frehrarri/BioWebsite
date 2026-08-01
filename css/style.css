@@ -139,3 +139,116 @@ section ul {
     margin-top: 30px;
 }
 
+@media (min-width: 320px) and (max-width: 480px){
+ 
+}
+
+
+@media (min-width: 481px) and (max-width: 768px) {
+    #background {
+        max-width: 768px;
+    }
+
+    #hero {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    #main-container {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    textarea {
+        height: 200px;
+    }
+
+    #education {
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+    }
+
+    #education > .flex-col > .flex {
+        flex-direction: column;
+    }
+
+    #skills {
+        letter-spacing: 0px;
+        font-size: .9rem;
+    }
+
+    .work-history-header {
+        flex-direction: column;
+    }
+
+    .work-history-role {
+        margin-bottom: 10px;
+    }
+
+    #hero img {
+        margin-left: 0px;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+    textarea {
+        height: 200px;
+    }
+
+    #education {
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+    }
+
+    #education > .flex-col > .flex {
+        flex-direction: column;
+    }
+
+    #skills {
+        letter-spacing: 0px;
+        font-size: .9rem;
+    }
+
+    .work-history-header {
+        flex-direction: column;
+    }
+
+    .work-history-role {
+        margin-bottom: 10px;
+    }
+
+    #hero img {
+        margin-left: 0px;
+    }
+}
+
+@media (min-width: 1025px) and (max-width: 1220px) {
+    textarea {
+        height: 200px;
+    }
+
+    #education {
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+    }
+
+    #education > .flex-col > .flex {
+        flex-direction: column;
+    }
+
+    #skills {
+        letter-spacing: 0px;
+        font-size: .9rem;
+    }
+
+    .work-history-header {
+        flex-direction: column;
+    }
+
+    .work-history-role {
+        margin-bottom: 10px;
+    }
+}

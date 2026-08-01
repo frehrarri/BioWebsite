@@ -333,11 +333,57 @@ button:hover {
     }
 }
 
+@media (min-width: 481px) and (max-width: 768px){
+    #mobile-nav {
+        display: flex;
+    }
 
-@media (max-width: 768px) {
+    #nav {
+        display: none;
+    }
 
+    #logo-container {
+        margin-left: 20px;
+        width: 100px;
+    }
+
+    #mobile-nav .material-symbols-outlined {
+        margin-right: 20px;
+    }
 }
 
-@media (max-width: 1024px) {
-   
+
+@media (min-width: 769px) and (max-width: 1024px) {
+    #logo-container {
+        width: 100px;
+        margin-left:40px;
+    }
+
+    #header-right {
+        margin-right: 40px;
+    }
+
+    #nav > ul {
+        gap: 10px;
+    }
+
+    #footer-right, #footer-left {
+        width: fit-content;
+    }
+}
+
+@media (min-width: 1025px) and (max-width: 1220px) {
+
+    #logo-container {
+        width: 100px;
+        margin-left:40px;
+    }
+
+    #header-right {
+        margin-right: 40px;
+    }
+
+    #nav > ul {
+        gap: 20px;
+    }
 }
