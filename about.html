@@ -12,28 +12,29 @@
         <link href="https://fonts.googleapis.com/css2?family=Libertinus+Math&display=swap" rel="stylesheet">
     </head>
     <body>
-        <header>
+    <header>
+        <nav id="nav">
             <div id="logo-container">
                 <a href="/index.html">
                     <img id="logo" src="img/logo.svg" alt="logo">
                 </a>
             </div>
-            <nav>
-                <ul>
-                    <li>
-                        <a href="/index.html">Home</a>
-                    </li>
-                    <li>
-                        <a href="/about.html" class="selected">About</a>
-                    </li>
-                    <li>
-                        <a href="/skills.html">Skills</a>
-                    </li>
-                    <li>
-                        <a href="/contact.html">Contact</a>
-                    </li>
-                </ul>
-            </nav>
+
+             <ul>
+                <li>
+                    <a href="/index.html" class="selected">Home</a>
+                </li>
+                <li>
+                    <a href="/about.html">About</a>
+                </li>
+                <li>
+                    <a href="/skills.html">Skills</a>
+                </li>
+                <li>
+                    <a href="/contact.html">Contact</a>
+                </li>
+            </ul>
+        
             <div id="header-right">
                 <div>
                     <span class="material-symbols-outlined">download</span>
@@ -50,7 +51,35 @@
                     LinkedIn
                 </a>
             </div>
-        </header>
+        </nav>
+       
+        <nav id="mobile-nav">
+            <div id="logo-container">
+                <a href="/index.html">
+                    <img id="logo" src="img/logo.svg" alt="logo">
+                </a>
+            </div>
+            <button type="button">
+                <span class="material-symbols-outlined">menu</span>
+            </button>
+        </nav>
+        <nav id="mobile-dropdown" class="flex-col">
+            <ul>
+                <li>
+                    <a href="/index.html">Home</a>
+                </li>
+                <li>
+                    <a href="/about.html" class="selected">About</a>
+                </li>
+                <li>
+                    <a href="/skills.html">Skills</a>
+                </li>
+                <li>
+                    <a href="/contact.html">Contact</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
         <main>
             <div id="background">
                 <div class="flex-col">

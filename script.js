@@ -79,3 +79,11 @@ function clearError(e){
         document.getElementById("message-error").classList.add("hidden");
     }
 }
+
+const hamburger = document.querySelector('#mobile-nav .material-symbols-outlined');
+hamburger.addEventListener("click", toggleDropdown);
+
+function toggleDropdown(){
+    const dropdown = document.getElementById('mobile-dropdown');
+    dropdown.classList.toggle('hidden');
+}

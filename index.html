@@ -13,12 +13,57 @@
 </head>
 <body>
     <header>
-        <div id="logo-container">
-            <a href="/index.html">
-                <img id="logo" src="img/logo.svg" alt="logo">
-            </a>
-        </div>
-        <nav>
+        <nav id="nav">
+            <div id="logo-container">
+                <a href="/index.html">
+                    <img id="logo" src="img/logo.svg" alt="logo">
+                </a>
+            </div>
+
+             <ul>
+                <li>
+                    <a href="/index.html" class="selected">Home</a>
+                </li>
+                <li>
+                    <a href="/about.html">About</a>
+                </li>
+                <li>
+                    <a href="/skills.html">Skills</a>
+                </li>
+                <li>
+                    <a href="/contact.html">Contact</a>
+                </li>
+            </ul>
+        
+            <div id="header-right">
+                <div>
+                    <span class="material-symbols-outlined">download</span>
+                    <a id="resume-download" href="docs/resume.pdf" download="mitchellfrehr_swe_resume.pdf">
+                        Resume
+                    </a>
+                </div>
+                <a href="https://github.com/frehrarri">
+                    <img id="github" src="img/github_icon.svg" alt="github link">
+                    Github
+                </a>
+                <a href="https://www.linkedin.com/in/frehrmitchell/">
+                    <img id="github" src="img/linkedin_icon.svg" alt="github link">
+                    LinkedIn
+                </a>
+            </div>
+        </nav>
+       
+        <nav id="mobile-nav">
+            <div id="logo-container">
+                <a href="/index.html">
+                    <img id="logo" src="img/logo.svg" alt="logo">
+                </a>
+            </div>
+            <button type="button">
+                <span class="material-symbols-outlined">menu</span>
+            </button>
+        </nav>
+        <nav id="mobile-dropdown" class="flex-col">
             <ul>
                 <li>
                     <a href="/index.html" class="selected">Home</a>
@@ -34,22 +79,6 @@
                 </li>
             </ul>
         </nav>
-        <div id="header-right">
-            <div>
-                <span class="material-symbols-outlined">download</span>
-                <a id="resume-download" href="docs/resume.pdf" download="mitchellfrehr_swe_resume.pdf">
-                    Resume
-                </a>
-            </div>
-            <a href="https://github.com/frehrarri">
-                <img id="github" src="img/github_icon.svg" alt="github link">
-                Github
-            </a>
-            <a href="https://www.linkedin.com/in/frehrmitchell/">
-                <img id="github" src="img/linkedin_icon.svg" alt="github link">
-                LinkedIn
-            </a>
-        </div>
     </header>
     <main>
         <div id="background">
