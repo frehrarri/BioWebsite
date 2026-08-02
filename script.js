@@ -1,7 +1,7 @@
 const body = document.querySelector("body");
 body.addEventListener("click", handleClicks);
 
-emailjs?.init("8GnXdQKXCjFBLbOGd"); //public api key
+emailjs.init("8GnXdQKXCjFBLbOGd"); //public api key
 
 function handleClicks(e){
 

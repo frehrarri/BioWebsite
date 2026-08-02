@@ -84,3 +84,68 @@ ul {
         border-bottom-left-radius: 2px;
         border-bottom-right-radius: 2px;
     }
+
+    #mobile-heading {
+        display: none;
+    }
+
+@media (min-width: 320px) and (max-width: 480px){
+    #background {
+        max-width: 480px;
+    }
+
+    #skills-explanation .flex .gap5 {
+        display: none;
+    }
+
+    #mobile-heading {
+        display: flex;
+        text-align: center;
+    }
+
+    #mobile-heading .material-symbols-outlined {
+        margin-right: 5px;
+    }
+
+    #heading {
+        display:none;
+    }
+
+    h3 {
+        font-size: 1.4rem;
+    }
+
+    #skills-explanation ul {
+        gap: 10px;
+    }
+
+    section .gap5 {
+        justify-content: center;
+    }
+
+    .loading-bar {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        font-size: 1.1rem;
+    }
+
+    .loading-bar .flex:first-child {
+        flex-direction:column;
+    }
+}
+
+
+@media (min-width: 481px) and (max-width: 768px){
+    #background {
+        max-width: 768px;
+    }
+}
+
+
+@media (min-width: 769px) and (max-width: 1024px) {
+    #background {
+        max-width: 1024px;
+    }
+
+}
