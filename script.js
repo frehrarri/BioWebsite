@@ -9,7 +9,7 @@ function handleClicks(e){
     const nav = e.target.closest("nav");
     const navlinks = nav.querySelector('ul');
     const selectedPage = e.target;
-    debugger;
+    
     if (navlinks && navlinks.classList.contains("home") && selectedPage.classList.contains('home'))
         e.preventDefault();
     else if (navlinks && navlinks.classList.contains("about") && selectedPage.classList.contains('about'))
