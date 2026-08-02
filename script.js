@@ -1,15 +1,15 @@
 const body = document.querySelector("body");
 body.addEventListener("click", handleClicks);
 
-emailjs.init("8GnXdQKXCjFBLbOGd"); //public api key
+emailjs?.init("8GnXdQKXCjFBLbOGd"); //public api key
 
 function handleClicks(e){
 
     //prevent navigating to pages we are already on
     const nav = e.target.closest("nav");
-    const navlinks = nav.querySelector('ul');
+    const navlinks = nav?.querySelector('ul');
     const selectedPage = e.target;
-    
+
     if (navlinks && navlinks.classList.contains("home") && selectedPage.classList.contains('home'))
         e.preventDefault();
     else if (navlinks && navlinks.classList.contains("about") && selectedPage.classList.contains('about'))
@@ -32,7 +32,7 @@ function handleClicks(e){
 }
 
 const form = document.getElementById('contact-form')
-form.addEventListener('input', clearError);
+form?.addEventListener('input', clearError);
 
 const emailedCount = 0;
 
@@ -49,7 +49,7 @@ async function sendEmail(e, submitBtn){
     submitBtn.disabled = true;
 
     try {
-        await emailjs.sendForm('service_duf5i55', 'template_nne4c8p', form); //service id, //template id
+        await emailjs?.sendForm('service_duf5i55', 'template_nne4c8p', form); //service id, //template id
         alert('Message sent successfully!');
         form.reset();
         emailedCount++;

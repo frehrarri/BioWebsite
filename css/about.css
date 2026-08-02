@@ -58,9 +58,6 @@ h1 {
     max-width: 50%;
 }
 
-#mobile-wrapper {
-    display: none;
-}
 
 #mobile-img-container {
     padding: 40px;
@@ -69,6 +66,10 @@ h1 {
     justify-content: center;
     align-items: center;
     max-width: 200px;
+}
+
+#mobile-wrapper {
+    display: none;
 }
 
 #img-container {
@@ -141,6 +142,10 @@ h1 {
         padding-right: 25px;
     }
 
+    #mobile-wrapper {
+        display: none;
+    }
+
     #wrapper {
         display: none;
     }
@@ -152,6 +157,10 @@ h1 {
 
 
 @media (min-width: 769px) and (max-width: 1024px) {
+    #mobile-wrapper {
+        display: none;
+    }
+
     #wrapper {
         display: none;
     }
@@ -160,3 +169,4 @@ h1 {
         max-width: fit-content;
     }
 }
+
