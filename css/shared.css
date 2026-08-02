@@ -346,12 +346,12 @@ button:hover {
     }
 
     #footer-left {
-        margin-left: 20px;
+        margin-left: 0;
         width: fit-content;
     }
 
     #footer-right {
-        margin-right: 20px;
+        margin-right: 0;
         width: fit-content;
     }
 }
@@ -427,6 +427,10 @@ button:hover {
 
 
 @media (min-width: 769px) and (max-width: 1024px) {
+     #mobile-dropdown{
+        display: none;
+    }
+
     #logo-container {
         width: 100px;
         margin-left:40px;
@@ -446,6 +450,9 @@ button:hover {
 }
 
 @media (min-width: 1025px) and (max-width: 1220px) {
+    #mobile-dropdown{
+        display: none;
+    }
 
     #logo-container {
         width: 100px;
@@ -458,5 +465,11 @@ button:hover {
 
     #nav > ul {
         gap: 20px;
+    }
+}
+
+@media (min-width: 1221px){
+    #mobile-dropdown{
+        display: none;
     }
 }
