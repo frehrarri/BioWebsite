@@ -180,7 +180,7 @@ section ul {
 
 @media (min-width: 320px) and (max-width: 480px){
     #background {
-        /* max-width: 480px; */
+        max-width: 480px;
         width:100%;
         padding-left: 25px;
         padding-right: 25px;
