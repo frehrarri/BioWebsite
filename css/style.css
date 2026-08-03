@@ -179,6 +179,10 @@ section ul {
 }
 
 @media (min-width: 320px) and (max-width: 480px){
+    body {
+        overflow-x: hidden;
+    }
+
     #background {
         max-width: 480px;
         padding-left: 25px;
@@ -406,7 +410,7 @@ section ul {
         padding-right: 25px;
     }
 
-    /* #hero {
+    #hero {
         margin-left: 20px;
         margin-right: 20px;
     }
@@ -414,7 +418,7 @@ section ul {
     #main-container {
         margin-left: 20px;
         margin-right: 20px;
-    } */
+    }
 
     #hero img {
         margin-left: 0px;
