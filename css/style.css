@@ -39,7 +39,7 @@ section {
     justify-content: space-between;
 }
 
-#image-wrapper {
+#img-wrapper {
   display: flex;
   justify-content: center;
   min-width: 40%;
@@ -100,12 +100,25 @@ section {
     width:100px;
 }
 
-    #projects .mw150 {
-        align-items: center;
+    #projects .gap25 {
+        justify-content: space-between;
     }
 
     #projects .mw150 b:first-of-type{
         text-align:center;
+    }
+
+    #projects .mw150 a{
+        display: flex;
+        justify-content: center;
+    }
+
+    #projects .mw150 p{
+        margin-left: 5px;
+    }
+
+    #projects .mw150 b:last-of-type{
+        margin-left: 5px;
     }
 
 #contact {
