@@ -133,6 +133,10 @@ ul {
     .loading-bar .flex:first-child {
         flex-direction:column;
     }
+
+    .loading-bar label {
+        font-weight: 600;
+    }
 }
 
 
