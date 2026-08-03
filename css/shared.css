@@ -118,6 +118,10 @@ img {
         max-height: 30px;
     }
 
+header {
+    display: flex;
+}
+
     #nav {
         background-color: #BFC9A9;
         display: flex;
@@ -125,6 +129,7 @@ img {
         align-items: center;
         height: 60px;
         letter-spacing: 1px;
+        flex: 1;
     }
 
     #nav a {
@@ -183,6 +188,7 @@ img {
     align-items: center;
     height: 60px;
     letter-spacing: 1px;
+    flex: 1;
 }
 
 #mobile-nav .material-symbols-outlined {
@@ -237,6 +243,10 @@ footer {
     justify-content: space-between;
     align-items: center;
     color:#705321;
+}
+
+.flex-span {
+    flex: 1;
 }
 
     #footer-left {
