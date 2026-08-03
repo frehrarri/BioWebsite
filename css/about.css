@@ -57,7 +57,7 @@ h1 {
 }
 
 #about .flex-col {
-    max-width: 50%;
+    max-width: 60%;
 }
 
 
@@ -86,7 +86,7 @@ h1 {
 
 #wrapper {
     display: flex;
-    justify-content: center;
+    justify-content: flex-end;
 }
 
 @media (min-width: 320px) and (max-width: 480px){
