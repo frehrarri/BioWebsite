@@ -105,12 +105,15 @@ h1 {
 
     #mobile-heading {
         display: flex;
+        flex-direction: column;
         text-align: center;
+        font-size: 1.8rem;
+        gap: 25px;
     }
 
-    #mobile-heading .material-symbols-outlined {
+    /* #mobile-heading .material-symbols-outlined {
         margin-right: 5px;
-    } 
+    }  */
 
     #heading {
         display: none;
