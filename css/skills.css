@@ -23,13 +23,14 @@ ul {
 #background {
     display: flex;
     justify-content: center;
+    max-width: 1440px;
 }
 
 #main-container {
     margin-left: 80px;
     margin-right: 80px;
     background-color: #F7EFE2;
-    width: 1024px;
+    /* width: 1024px; */
     gap: 25px;
 }
 
@@ -92,6 +93,8 @@ ul {
 @media (min-width: 320px) and (max-width: 480px){
     #background {
         max-width: 480px;
+        padding-left: 25px;
+        padding-right: 25px;
     }
 
     #skills-explanation .flex .gap5 {
@@ -101,6 +104,7 @@ ul {
     #mobile-heading {
         display: flex;
         text-align: center;
+        justify-content: center;
     }
 
     #mobile-heading .material-symbols-outlined {
@@ -137,12 +141,24 @@ ul {
     .loading-bar label {
         font-weight: 600;
     }
+
+    #main-container {
+        margin-left: 0;
+        margin-right: 0;
+    }
 }
 
 
 @media (min-width: 481px) and (max-width: 768px){
     #background {
         max-width: 768px;
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+
+    #main-container {
+        margin-left: 0;
+        margin-right: 0;
     }
 }
 

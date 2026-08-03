@@ -133,6 +133,7 @@ h1 {
     #wrapper {
         display: none;
     }
+
 }
 
 
@@ -153,6 +154,7 @@ h1 {
     #about .flex-col {
         max-width: fit-content;
     }
+
 }
 
 

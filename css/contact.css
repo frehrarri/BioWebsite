@@ -72,6 +72,8 @@ h1 {
 @media (min-width: 320px) and (max-width: 480px){
     #background {
         max-width: 480px;
+        padding-left: 25px;
+        padding-right: 25px;
     }
 
     h1 {
@@ -111,10 +113,6 @@ h1 {
         gap: 25px;
     }
 
-    /* #mobile-heading .material-symbols-outlined {
-        margin-right: 5px;
-    }  */
-
     #heading {
         display: none;
     }
@@ -132,6 +130,8 @@ h1 {
 @media (min-width: 481px) and (max-width: 768px){
     #background {
         max-width: 768px;
+        padding-left: 25px;
+        padding-right: 25px;
     }
 
     h1 {

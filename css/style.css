@@ -5,12 +5,18 @@
     gap: 30px;
 }
 
+#background {
+        max-width: 1440px;
+        padding-left: 80px;
+        padding-right: 80px;
+    }
+
 #main-container {
-    margin-left: 80px;
-    margin-right: 80px;
+    /* margin-left: 80px;
+    margin-right: 80px; */
     padding-bottom: 25px;
     background-color: #F7EFE2;
-    max-width: 1024px;
+    /* max-width: 1024px; */
     display: grid;
     grid-template-columns: 55% 1fr;
     grid-template-areas:
@@ -27,14 +33,21 @@ section {
     display: flex;
     gap: 50px;
     background-color: #F8FFEA;
-    margin-left: 80px;
+    /* margin-left: 80px;
     margin-right: 80px;
-    max-width: 1024px;
+    max-width: 1024px; */
+    justify-content: space-between;
+}
+
+#image-wrapper {
+  display: flex;
+  justify-content: center;
+  min-width: 40%;
 }
 
 #hero img {
     max-height: 300px;
-    margin-left: 60px;
+    /* margin-left: 60px; */
     border-radius: 2px;
 }
 
@@ -147,6 +160,8 @@ section ul {
 @media (min-width: 320px) and (max-width: 480px){
     #background {
         max-width: 480px;
+        padding-left: 25px;
+        padding-right: 25px;
     }
 
     #hero {
@@ -282,6 +297,11 @@ section ul {
 }
 
 @media (min-width: 481px) and (max-width: 595px){
+    #background {
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+
     #hero {
         flex-direction: column;
         align-items: center;
@@ -361,6 +381,8 @@ section ul {
 @media (min-width: 481px) and (max-width: 768px) {
     #background {
         max-width: 768px;
+        padding-left: 25px;
+        padding-right: 25px;
     }
 
     #hero {
