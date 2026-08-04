@@ -117,10 +117,6 @@ img {
     #logo {
         max-height: 30px;
     }
-/* 
-header {
-    display: flex;
-} */
 
     #nav {
         background-color: #BFC9A9;
@@ -202,6 +198,7 @@ header {
 #mobile-dropdown {
     background-color: #BFC9A9;
     padding: 20px;
+    border-top: 1px solid #37280d;
 }
 
     #mobile-dropdown ul {
@@ -324,7 +321,6 @@ button:hover {
 @media (min-width: 320px) and (max-width: 480px){
   header {
         font-size: 1.2rem;
-        flex-direction: column;
     }
 
     #mobile-nav {
@@ -367,7 +363,6 @@ button:hover {
 @media (min-width: 481px) and (max-width: 595px){
     header {
         font-size: 1.2rem;
-        flex-direction: column;
     }
 
     #mobile-nav {
@@ -407,10 +402,6 @@ button:hover {
 }
 
 @media (min-width: 596px) and (max-width: 768px){
-    header{
-        flex-direction: column;
-    }
-
     #mobile-nav {
         display: flex;
     }
