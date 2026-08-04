@@ -304,10 +304,15 @@ section ul {
     }
 }
 
-@media (min-width: 481px) and (max-width: 595px){
+@media (min-width: 481px) and (max-width: 768px) {
     #background {
+        max-width: 768px;
         padding-left: 25px;
         padding-right: 25px;
+    }
+
+    h1 {
+        font-size: 2.5rem;
     }
 
     #hero {
@@ -329,77 +334,6 @@ section ul {
     #mobile-img-wrapper {
         display: flex;
         margin-bottom: 25px;
-    }
-
-    h1 {
-        font-size: 2.5rem;
-    }
-
-    section > .flex {
-        justify-content: center;
-    }
-
-    .work-history-entry {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .work-history-header{
-        flex-direction: column;
-        align-items: center;
-    }
-
-    #contact .margin-b-25 {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        text-align:center;
-    }
-
-    #projects .gap25 {
-        display: flex;
-        flex-direction: column;
-        gap: 40px;
-    }
-
-    #projects .mw150 {
-        max-width: fit-content;
-        align-items: center;
-        text-align: center
-    }
-
-    #projects img {
-        height: 100px;
-        width: 150px;
-    }
-
-    #projects a {
-        text-align: center;
-        font-size: 1.2rem;
-    }
-
-    #skills a {
-        text-align: center;
-        font-size: 1.2rem;
-    }
-}
-
-@media (min-width: 481px) and (max-width: 768px) {
-    #background {
-        max-width: 768px;
-        padding-left: 25px;
-        padding-right: 25px;
-    }
-
-    #hero {
-        margin-left: 20px;
-        margin-right: 20px;
-    }
-
-    #hero img {
-        margin-left: 0px;
     }
 
     #main-container {
